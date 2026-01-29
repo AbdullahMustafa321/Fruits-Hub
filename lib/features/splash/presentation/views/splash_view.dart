@@ -6,7 +6,8 @@ import '../../../on_boarding/presentation/views/on_boarding_view.dart';
 
 class SplashView extends StatefulWidget {
   const SplashView({super.key});
-static const routeName = 'splash';
+
+  static const routeName = 'splash';
 
   @override
   State<SplashView> createState() => _SplashViewState();
@@ -24,12 +25,9 @@ class _SplashViewState extends State<SplashView> {
     return Scaffold(body: SplashViewBody());
   }
 
-
   void excuiteNavigation() {
-Future.delayed(Duration(seconds: 3), () {
-
-  Navigator.pushReplacementNamed(context, OnBoardingView.routeName);
-});
+    Future.delayed(Duration(seconds: 3), () {
+      Navigator.pushReplacementNamed(context, OnBoardingView.routeName);
+    });
   }
-
 }
