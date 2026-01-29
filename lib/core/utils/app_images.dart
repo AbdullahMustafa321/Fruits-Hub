@@ -1,0 +1,20 @@
+class Assets {
+  Assets._();
+
+  static const String fontsCairoBold = 'assets/fonts/Cairo-Bold.ttf';
+  static const String fontsCairoMedium = 'assets/fonts/Cairo-Medium.ttf';
+  static const String fontsCairoRegular = 'assets/fonts/Cairo-Regular.ttf';
+  static const String fontsCairoSemiBold = 'assets/fonts/Cairo-SemiBold.ttf';
+  static const String imagesAppleIcone = 'assets/images/apple_icone.svg';
+  static const String imagesFacebookIcone = 'assets/images/facebook_icone.svg';
+  static const String imagesFreepikCircles = 'assets/images/freepik-Circles.svg';
+  static const String imagesFreepikPlant = 'assets/images/freepik-Plant.svg';
+  static const String imagesFruitBasket = 'assets/images/fruit_basket.svg';
+  static const String imagesFruitsIcon = 'assets/images/fruits_icon.png';
+  static const String imagesGoogleIcone = 'assets/images/google_icone.svg';
+  static const String imagesOnBoardingViewBackground1 = 'assets/images/on_boarding_view_background1.svg';
+  static const String imagesOnBoardingViewBackground2 = 'assets/images/on_boarding_view_background2.svg';
+  static const String imagesPineapple = 'assets/images/pineapple.svg';
+  static const String imagesSplashLogo = 'assets/images/splash-logo.svg';
+
+}
